@@ -1,0 +1,81 @@
+{
+  "themes": [
+    {
+      "index": 0,
+      "name": "Cosmic Nebula",
+      "template": "A cosmic nebula with swirling {color} and {texture} patterns, deep space, stars, digital art, 8k resolution, highly detailed"
+    },
+    {
+      "index": 1,
+      "name": "Abstract Geometry",
+      "template": "Abstract geometric composition with {shape} patterns in {color}, {mood} atmosphere, minimalist, digital art, 8k"
+    },
+    {
+      "index": 2,
+      "name": "Organic Flow",
+      "template": "Organic flowing forms in {color} tones with {texture} surface, {mood} lighting, macro photography style, 8k"
+    },
+    {
+      "index": 3,
+      "name": "Crystal Formation",
+      "template": "Crystalline formation glowing with {color} light, {texture} facets, {mood} background, photorealistic, 8k resolution"
+    },
+    {
+      "index": 4,
+      "name": "Ethereal Landscape",
+      "template": "Ethereal landscape with {color} sky, {texture} terrain, {shape} formations, dreamlike, fantasy art, 8k"
+    }
+  ],
+  "variations": {
+    "colors": [
+      "deep violet and cyan",
+      "crimson and gold",
+      "emerald and silver",
+      "sapphire and amber",
+      "coral and teal",
+      "obsidian and rose",
+      "indigo and copper",
+      "jade and magenta",
+      "pearl white and midnight blue",
+      "burnt orange and lavender",
+      "ruby red and arctic blue",
+      "forest green and sunset orange"
+    ],
+    "textures": [
+      "crystalline",
+      "liquid metallic",
+      "fractal",
+      "ethereal smoky",
+      "iridescent",
+      "silk-like",
+      "rough granite",
+      "bioluminescent",
+      "molten glass",
+      "woven fiber"
+    ],
+    "shapes": [
+      "hexagonal",
+      "spiral",
+      "tessellated",
+      "fractal branching",
+      "concentric ring",
+      "voronoi cell",
+      "fibonacci curve",
+      "polyhedron",
+      "wave interference",
+      "lattice grid"
+    ],
+    "moods": [
+      "mysterious",
+      "serene",
+      "energetic",
+      "melancholic",
+      "triumphant",
+      "contemplative",
+      "chaotic",
+      "harmonious",
+      "ethereal",
+      "dramatic"
+    ]
+  }
+}

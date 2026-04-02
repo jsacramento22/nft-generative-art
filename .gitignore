@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+contracts/dist/
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Model files (large)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+models/

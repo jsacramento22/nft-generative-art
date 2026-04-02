@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "frontend",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["/Users/josealvarosacramento/work/nft-generative-art/frontend/dev.sh"],
+      "port": 3000,
+      "cwd": "frontend"
+    }
+  ]
+}
