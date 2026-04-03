@@ -6,17 +6,17 @@ AI-generated art where the seed is committed on-chain **before** generation, mak
 
 | | Details |
 |---|---|
-| **Chain** | Polygon Amoy Testnet (Chain ID: 80002) |
-| **Contract** | `0xBb223c1feeCb807081983445Feb3190D93D442A6` |
-| **Explorer** | [amoy.polygonscan.com](https://amoy.polygonscan.com/address/0xBb223c1feeCb807081983445Feb3190D93D442A6) |
-| **Mint Price** | 0.001 POL |
+| **Chain** | Base Sepolia Testnet (Chain ID: 84532) |
+| **Contract** | `0xd6D93BFdd279236dD2815857DEeB68E0A8BE4D9c` |
+| **Explorer** | [sepolia.basescan.org](https://sepolia.basescan.org/address/0xd6D93BFdd279236dD2815857DEeB68E0A8BE4D9c) |
+| **Mint Price** | 0.0001 ETH |
 | **Max Supply** | 1,000 |
 | **Themes** | 5 (Cosmic Nebula, Abstract Geometry, Organic Flow, Crystal Formation, Ethereal Landscape) |
 
 ## Architecture
 
 ```
-                                    On-Chain (Polygon Amoy)
+                                    On-Chain (Base Sepolia)
                                    ┌──────────────────────┐
   User ──► Frontend (Next.js) ──►  │  GenerativeNFT.sol   │
            localhost:3000          │  - mint()             │
@@ -117,7 +117,7 @@ nft-generative-art/
 
 | Layer | Technology |
 |---|---|
-| **Blockchain** | Polygon Amoy Testnet |
+| **Blockchain** | Base Sepolia Testnet |
 | **Smart Contract** | Solidity 0.8.27, OpenZeppelin v5, Hardhat v2 |
 | **Backend** | Python 3.12, FastAPI, web3.py, diffusers (Stable Diffusion v1.5) |
 | **Frontend** | Next.js 15, TypeScript, wagmi v2, viem, RainbowKit v2, Tailwind CSS |
@@ -129,7 +129,7 @@ nft-generative-art/
 - **Node.js** >= 22.10 (via nvm)
 - **Python** >= 3.10
 - **MetaMask** browser extension
-- **Polygon Amoy testnet POL** (from faucet)
+- **Base Sepolia testnet ETH** (from faucet)
 
 ## Setup & Run
 
@@ -142,10 +142,10 @@ npm install
 # Run tests (25 passing)
 npx hardhat test
 
-# Deploy to Amoy (fill in .env first)
+# Deploy to Base Sepolia (fill in .env first)
 cp .env.example .env
 # Edit .env with your PRIVATE_KEY
-npx hardhat run scripts/deploy.ts --network amoy
+npx hardhat run scripts/deploy.ts --network baseSepolia
 ```
 
 ### 2. Backend
